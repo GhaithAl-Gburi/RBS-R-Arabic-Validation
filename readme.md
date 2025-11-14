@@ -1,4 +1,4 @@
-# README — Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale Among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification
+# README — Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale Among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification (R)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17606530.svg)](https://doi.org/10.5281/zenodo.17606530)
 
@@ -27,7 +27,7 @@ The script tests multiple CFA models (2-factor, 6-factor, and modified 2-factor 
 - `RBS_validation.Rmd` — Main R Markdown analysis file.  
 - `results.html` — Rendered HTML report of the full analysis workflow.  
 - `RBS_data.csv` — the CSV file containing the data related to the study referenced above.
-- `survey.docx` — the doc file containing the arabic and english version of the research survey.
+- `survey.docx` — the doc file containing the arabic and english version of the research survey, and their scoring manual.
 - `item-item spearman correlation matrix.xlsx` — the item-item correlation matrix for the arabic RBS-R.
 - `readme.md` — This file.  
 - `LICENSE` — MIT License (reuse and citation conditions).
