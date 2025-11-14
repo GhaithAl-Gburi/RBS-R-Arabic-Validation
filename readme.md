@@ -2,7 +2,7 @@
 
 **Repository author:** Ghaith Al-Gburi  
 
-**Study DOI / citation:** *To be updated upon publication.*
+**Study DOI / citation:** 10.1002/mpr.70048
 
 ---
 
@@ -91,14 +91,12 @@ Rscript -e "rmarkdown::render('RBS_validation.Rmd')"
 ---
 
 ## License & citation
+**License:** This repository is released under the **MIT License**.
 
-**License:** Released under the **MIT License** (reuse permitted with attribution).
-
-**How to cite (placeholder):**
+**How to cite the study using this code:**
 
 ```
-Al-Gburi G. Arabic Validation of the Repetitive Behavior Scale–Revised (RBS-R): 
-Confirmatory Factor Analysis and Psychometric Evaluation. [Journal Name, Year, DOI].
+Hussein Al‐Sultan, Ruaa R., Shatha M. Jasim, Faris Lami, et al. 2025. “Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification,” International Journal of Methods in Psychiatric Research: e70048. DOI: 10.1002/mpr.70048
 ```
 
 ---
