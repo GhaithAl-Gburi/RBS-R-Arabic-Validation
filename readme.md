@@ -1,8 +1,10 @@
 # README — Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale Among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17606530.svg)](https://doi.org/10.5281/zenodo.17606530)
+
 **Repository author:** Ghaith Al-Gburi  
 
-**Study DOI / citation:** 10.1002/mpr.70048
+**Study DOI / Citation:** Hussein Al‐Sultan, Ruaa R., Shatha M. Jasim, Faris Lami, et al. 2025. “Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification,” International Journal of Methods in Psychiatric Research: e70048. DOI: 10.1002/mpr.70048
 
 ---
 
@@ -93,10 +95,10 @@ Rscript -e "rmarkdown::render('RBS_validation.Rmd')"
 ## License & citation
 **License:** This repository is released under the **MIT License**.
 
-**How to cite the study using this code:**
+**How to cite this code:**
 
 ```
-Hussein Al‐Sultan, Ruaa R., Shatha M. Jasim, Faris Lami, et al. 2025. “Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification,” International Journal of Methods in Psychiatric Research: e70048. DOI: 10.1002/mpr.70048
+Al-gburi, . ghaith . (2025). RBS-R-Arabic-Validation. Zenodo. https://doi.org/10.5281/zenodo.17606530
 ```
 
 ---
