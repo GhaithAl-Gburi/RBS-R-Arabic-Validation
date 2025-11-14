@@ -1,4 +1,4 @@
-# README — RBS-R Arabic Validation (Confirmatory Factor Analysis & Psychometrics in R)
+# README — Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale Among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification
 
 **Repository author:** Ghaith Al-Gburi  
 
@@ -23,9 +23,11 @@ The script tests multiple CFA models (2-factor, 6-factor, and modified 2-factor 
 
 ## Files in this repo
 - `RBS_validation.Rmd` — Main R Markdown analysis file.  
-- `results.html` — (optional) Rendered HTML report of the full analysis workflow.  
-- `slides/` — Optional folder for supplementary figures or presentations.  
-- `README.md` — This file.  
+- `results.html` — Rendered HTML report of the full analysis workflow.  
+- `RBS_data.csv` — the CSV file containing the data related to the study referenced above.
+- `survey.docx` — the doc file containing the arabic and english version of the research survey.
+- `item-item spearman correlation matrix.xlsx` — the item-item correlation matrix for the arabic RBS-R.
+- `readme.md` — This file.  
 - `LICENSE` — MIT License (reuse and citation conditions).
 
 ---
@@ -56,7 +58,7 @@ The script expects an R data frame (or CSV) with these columns:
 | Restricted Interests | `rb1`–`rb4` |
 
 Optional derived columns:
-- `rsmb`, `is`, `rsmbm`, `ism` — composite or modified factor scores.
+- `rsmb`, `is`, `rsmbm`, `ism` — factor scores.
 
 ---
 
@@ -80,7 +82,7 @@ Rscript -e "rmarkdown::render('RBS_validation.Rmd')"
 ## Outputs produced by the script
 
 - **Confirmatory Factor Analyses (CFA)** for multiple model structures using `lavaan` (`WLSMV` estimator).  
-- **Reliability Analyses:** Cronbach’s α and composite reliability via `semTools::compRelSEM`.  
+- **Reliability Analyses:** Spearman's α and composite reliability via `semTools::compRelSEM`.  
 - **Item statistics:** Corrected item-total correlations and descriptive statistics (`psych::alpha`).  
 - **Factor Correlations:** Spearman correlations among latent factors.  
 - **Model Comparison:** Fit indices (CFI, TLI, RMSEA, SRMR) and chi-square difference tests.  
@@ -107,6 +109,3 @@ Confirmatory Factor Analysis and Psychometric Evaluation. [Journal Name, Year, D
 - **GitHub:** [https://github.com/GhaithAl-Gburi](https://github.com/GhaithAl-Gburi)  
 - **ORCID:** `0000-0001-7427-8310`
 
----
-
-> © 2025 Ghaith Al-Gburi — This repository supports open scientific transparency in Arabic-language psychometrics.
