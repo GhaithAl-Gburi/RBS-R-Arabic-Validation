@@ -9,7 +9,7 @@
 ---
 
 ## Quick view
-Click below to view the complete analysis results and visualizations (once rendered):
+Click below to view the complete analysis results and visualizations:
 
 [Open the full analysis report (HTML)](https://rawcdn.githack.com/GhaithAl-Gburi/RBS-R-Arabic-Validation/main/results.html)
 
