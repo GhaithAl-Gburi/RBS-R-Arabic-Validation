@@ -4,45 +4,41 @@
 
 **Repository author:** Ghaith Al-Gburi  
 
-**Study DOI / Citation:** Hussein Al‐Sultan, Ruaa R., Shatha M. Jasim, Faris Lami, et al. 2025. “Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification,” International Journal of Methods in Psychiatric Research: e70048. DOI: 10.1002/mpr.70048
+**Study DOI / Citation:** Hussein Al‐Sultan RR, Jasim SM, Lami F, et al. Translation and Validation of the Arabic Version of the Revised Restrictive Behaviours Scale Among Iraqi Children With Autism Spectrum Disorder: A Suggestion for Model Modification. Int J Methods Psychiatr Res. 2025;34(4). doi:`10.1002/mpr.70048`.
+
+[![Read the Study](https://img.shields.io/badge/Read%20the%20Study-blue)](https://doi.org/10.1002/mpr.70048)
 
 ---
 
 ## Quick view
 Click below to view the complete analysis results and visualizations:
 
-[Open the full analysis report (HTML)](https://rawcdn.githack.com/GhaithAl-Gburi/RBS-R-Arabic-Validation/main/results.html)
+[Open the full analysis report](https://rawcdn.githack.com/GhaithAl-Gburi/RBS-R-Arabic-Validation/main/analysis_report.pdf)
 
 ---
 
 ## Purpose
-This repository contains `RBS_validation.Rmd` — an R Markdown script used to perform confirmatory factor analysis (CFA) and psychometric validation of the **Arabic version of the Repetitive Behavior Scale–Revised (RBS-R)**.  
-The script tests multiple CFA models (2-factor, 6-factor, and modified 2-factor structures), estimates reliability (Cronbach’s α and composite reliability), and examines inter-factor correlations.
+This repository contains `RBS_validation.Rmd` — an R Markdown script used to perform confirmatory factor analysis and psychometric validation of the **Arabic version of the Repetitive Behavior Scale–Revised (RBS-R)**.  The script tests multiple CFA models (2-factor, 6-factor, and modified 2-factor structures, etc.), estimates reliability (Cronbach’s α and composite reliability), and examines inter-factor correlations.
 
 > **Data privacy:** Participant-level identifiable data are **not included** in this repository.
 
 ---
 
 ## Files in this repo
-- `RBS_validation.Rmd` — Main R Markdown analysis file.  
-- `results.html` — Rendered HTML report of the full analysis workflow.  
-- `RBS_data.csv` — the CSV file containing the data related to the study referenced above.
-- `survey.docx` — the doc file containing the arabic and english version of the research survey, and their scoring manual.
-- `item-item spearman correlation matrix.xlsx` — the item-item correlation matrix for the arabic RBS-R.
+- `RBS_validation.R` — R script.
+- `RBS_validation.Rmd` — R Markdown (script + narrative + results).
+- `analysis_report.pdf` — Rendered PDF report for the complete analysis workflow.
+- `RBS_data.csv` — CSV file containing the data used for statistical analysis.
+- `survey.docx` — Doc file containing the arabic and english version of the research survey.
+- `item-item spearman correlation matrix.xlsx` — item-item correlation matrix for the arabic RBS-R.
 - `readme.md` — This file.  
-- `LICENSE` — MIT License (reuse and citation conditions).
+- `LICENSE` — AGPL-3.0 License (reuse and citation conditions).
 
 ---
 
 ## Required R version & packages
 - **R version:** ≥ 4.0 recommended  
 - **Required packages:** `lavaan`, `semTools`, `psych`, `dplyr`
-
-Install packages in R:
-
-```r
-install.packages(c("lavaan","semTools","psych","dplyr"))
-```
 
 ---
 
@@ -93,12 +89,12 @@ Rscript -e "rmarkdown::render('RBS_validation.Rmd')"
 ---
 
 ## License & citation
-**License:** This repository is released under the **MIT License**.
+**License:** This repository is released under the **AGPL-3.0 License**.
 
 **How to cite this code:**
 
 ```
-Al-gburi, . ghaith . (2025). RBS-R-Arabic-Validation. Zenodo. https://doi.org/10.5281/zenodo.17606530
+Al-Gburi, G. (2025). RBS-R-Arabic-Validation. Zenodo. https://doi.org/10.5281/zenodo.17606530
 ```
 
 ---
